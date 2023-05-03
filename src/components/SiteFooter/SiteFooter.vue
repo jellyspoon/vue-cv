@@ -8,6 +8,6 @@
 <style scoped lang="scss">
 .site-footer {
   text-align: right;
-  padding-right: 1rem;
+  padding: .25rem;
 }
 </style>

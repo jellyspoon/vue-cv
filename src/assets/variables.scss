@@ -13,8 +13,42 @@ $warning: $ecru;
 $background: $oxford-blue;
 $primary-font: whitesmoke;
 
+$highlight: #FFFFFF10;
+
+// Breakpints
 $break-xl: 1200px;
 $break-l: 1024px;
 $break-m: 768px;
 $break-s: 480px;
 $break-xs: 320px;
+
+// Mixins
+@mixin xl {
+  @media (min-width: #{$break-xl}) {
+    @content;
+  }
+}
+
+@mixin l {
+  @media (min-width: #{$break-l}) {
+    @content;
+  }
+}
+
+@mixin m {
+  @media (min-width: #{$break-m}) {
+    @content;
+  }
+}
+
+@mixin s {
+  @media (min-width: #{$break-s}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (min-width: #{$break-xs}) {
+    @content;
+  }
+}

@@ -1,8 +1,23 @@
 @import './variables.scss';
 
 @font-face {
-  src: local('Metrophobic'), url('@/assets/fonts/Metrophobic-Regular.ttf') format('truetype');
-  font-family: 'Metrophobic';
+  src: local('Ubuntu-Regular'), url('@/assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-family: 'Ubuntu-Regular';
+}
+
+@font-face {
+  src: local('Ubuntu-Light'), url('@/assets/fonts/Ubuntu-Light.ttf') format('truetype');
+  font-family: 'Ubuntu-Light';
+}
+
+@font-face {
+  src: local('Ubuntu-Medium'), url('@/assets/fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-family: 'Ubuntu-Medium';
+}
+
+@font-face {
+  src: local('Ubuntu-Bold'), url('@/assets/fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-family: 'Ubuntu-Bold';
 }
 
 html, body, #app {
@@ -11,13 +26,15 @@ html, body, #app {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: 'Metrophobic', sans-serif;
+  font-family: 'Ubuntu-Light', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
   background-color: $background;
   color: $primary-font;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu-Regular', sans-serif;;
   margin: 0;
   padding: 0;
 }
