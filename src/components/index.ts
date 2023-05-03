@@ -1,11 +1,11 @@
 import SiteHeader from './SiteHeader'
 import PageWrapper from './PageWrapper'
 import SiteFooter from './SiteFooter'
-import Contentselector from './ContentSelector'
+import NavBar from './NavBar'
 
 export {
   SiteHeader,
   PageWrapper,
   SiteFooter,
-  Contentselector
+  NavBar
 }
